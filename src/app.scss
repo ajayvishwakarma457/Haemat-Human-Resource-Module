@@ -1,0 +1,124 @@
+$white-color:#fff;
+$error-color:red;
+
+html,
+body,
+#root {
+    width: 100%;
+    height: 100%;
+    background-color: $white-color;
+}
+
+#root {
+
+    background-image: linear-gradient(to left, #09b5c9, #0c72ba);
+    position: relative;
+
+    .login-wrapper {
+        width: 400px;
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+    }
+
+    .error {
+        color: $error-color;
+    }
+
+    .list-inline-right {
+        &>li {
+            button {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: transparent;
+                border: 0;
+                font-weight: 500;
+
+                span {
+                    display: inline-block;
+                    margin-right: 8px;
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    h1 {
+        font-size: 18px !important;
+    }
+
+    .p-component,
+    .p-component * {
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+
+    .main-wrapper {
+        background-color: #fff;
+        width: 100%;
+        min-height: 100%;
+    }
+
+    .p-datatable.p-datatable-gridlines .p-datatable-header,
+    [role="toolbar"] {
+        //background: rgba(208, 209, 251, 0.5);
+        background-color: rgba(128, 128, 128, 0.2);
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .p-datatable.p-datatable-gridlines .p-paginator-bottom,
+    .p-datatable .p-paginator-bottom {
+        background-color: rgba(128, 128, 128, 0.1);
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .p-menubar-end {
+        font-weight: bold;
+
+        .pi-power-off {
+            font-size: 16px;
+        }
+    }
+
+    .login-text {
+        font-size: 30px !important;
+        font-weight: bolder;
+        color: #0c72ba;
+    }
+
+    .p-menubar .p-submenu-list {
+        z-index: 9;
+    }
+
+    .p-button {
+        background-color: #0c72ba;
+
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+
+    .p-menubar {
+        background-image: linear-gradient(to left, #09b5c9, #0c72ba);
+        border: 0;
+    }
+
+    .p-menubar .p-menubar-root-list>.p-menuitem>.p-menuitem-link .p-menuitem-text {
+        color: #fff;
+    }
+
+    .delete-icon {
+        background: #EF4444;
+        border: 1px solid #EF4444;
+    }
+}
