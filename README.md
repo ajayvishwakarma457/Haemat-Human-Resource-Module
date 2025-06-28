@@ -2,7 +2,7 @@
 
 A comprehensive web-based admin panel for managing doctors, employees, medicine usage, and healthcare metadata such as zones, states, regions, and specialities. Designed for efficiency, visibility, and seamless access control for medical teams.
 
-![Login Page](./screenshots/1.png)
+![Login Page](./screenshot/1.png)
 
 ## 🚀 Features
 
@@ -31,19 +31,19 @@ A comprehensive web-based admin panel for managing doctors, employees, medicine 
 
 | Module | Preview |
 |--------|---------|
-| Login | ![Login](./screenshots/1.png) |
-| Doctor List | ![Doctors](./screenshots/2.png) |
-| Add Doctor | ![Add Doctor](./screenshots/3.png) |
-| Edit Doctor | ![Edit Doctor](./screenshots/4.png) |
-| Employee List | ![Employees](./screenshots/5.png) |
-| View Doctors by Employee | ![Employee Doctors](./screenshots/6.png) |
-| Assign/Unassign Doctor | ![Assign Doctor](./screenshots/8.png) |
-| Medicine Usage | ![Medicine](./screenshots/10.png) |
-| Master - Designation | ![Designation](./screenshots/11.png) |
-| Master - Zone | ![Zone](./screenshots/14.png) |
-| Master - State | ![State](./screenshots/17.png) |
-| Master - Region | ![Region](./screenshots/20.png) |
-| Master - Speciality | ![Speciality](./screenshots/23.png) |
+| Login | ![Login](./screenshot/1.png) |
+| Doctor List | ![Doctors](./screenshot/2.png) |
+| Add Doctor | ![Add Doctor](./screenshot/3.png) |
+| Edit Doctor | ![Edit Doctor](./screenshot/4.png) |
+| Employee List | ![Employees](./screenshot/5.png) |
+| View Doctors by Employee | ![Employee Doctors](./screenshot/6.png) |
+| Assign/Unassign Doctor | ![Assign Doctor](./screenshot/8.png) |
+| Medicine Usage | ![Medicine](./screenshot/10.png) |
+| Master - Designation | ![Designation](./screenshot/11.png) |
+| Master - Zone | ![Zone](./screenshot/14.png) |
+| Master - State | ![State](./screenshot/17.png) |
+| Master - Region | ![Region](./screenshot/20.png) |
+| Master - Speciality | ![Speciality](./screenshot/23.png) |
 
 > 📁 All 25 screenshots should be added to a `/screenshots` directory in your repo for these references to work.
 
