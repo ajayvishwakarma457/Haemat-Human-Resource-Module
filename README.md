@@ -56,5 +56,21 @@ A comprehensive web-based admin panel for managing doctors, employees, medicine 
 - **Database:** Likely MongoDB or SQL-based (inferred from UI structures)
 - **Authentication:** Custom login system
 
-## 📦 Project Structure (assumed)
+## 📦 Setup & Installation
+
+  # Clone the repository
+  git clone https://github.com/ajayvishwakarma457/Haemat-Human-Resource-Module.git
+  cd Haemat-Human-Resource-Module
+  
+  # Install dependencies
+  npm install
+  
+  # Setup environment variables (DB config, AWS keys, etc.)
+  
+  # Run the app
+  npm run dev
+  
+  ## 📬 Contact
+  **Author:** Ajay M Vishwakarma  
+  **Email:** ajayvishwakarma457@gmail.com
 
